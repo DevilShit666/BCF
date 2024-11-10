@@ -1,0 +1,15 @@
+{
+	"gateway": "google",
+	"signature": "RvenNXr8NWV9yW76jftBjRWgaYH5k5gR4PLoNNi1A1F8wYl6jwTNGrL62AegZo2Uz1/YJ052jREndJjitkfIdhhDfl+aq0w9jQBJg/3XJxys/wzo3cce9NLKIcevFNQ1jyO1NyQGARccZK5LxIxAuDDW0YhBUQQ1CiSpSB0Ck+MVPfJd4/666+4xyvwDFaeo0R1/+taaBNXpzp+sFf2S5xZ7yu56toPOHi0nSOK//2a8zlNrRJC0RaMmiNaxNAwSjkrA8ufnqO0z7o+LJZXKJ6a68lisCmNETXfp/z3h1a+u9X0yj3H77tPUIiBWblwSx8R3PCHCR2XSsCwh/s/N9w==",
+	"game_type": "monsters",
+	"udid": "UWiWZDxK4ToqDS1uILqs1w",
+	"signed_data": "%7B%22orderId%22%3A%22GPA.3384-8533-2753-18855%22%2C%22packageName%22%3A%22com.pennypop.monsters.live%22%2C%22productId%22%3A%22gold3%22%2C%22purchaseTime%22%3A1725731520443%2C%22purchaseState%22%3A0%2C%22purchaseToken%22%3A%22hkiifnhncpnjbkkfjnhafnkl.AO-J1OxXsOjFWhwcYjsnbjNXBN2K587jG8FEk422Fg5AhIwbxxhdgU_SaL2PRQZvlLLjailU-0V7ZlVI2K6ANvYSNaaFzQZHjuJQVDfI4WQqIQbqldd0sEI%22%2C%22quantity%22%3A1%2C%22acknowledged%22%3Afalse%7D",
+	"user_id": null,
+	"sale_id": "gold3",
+	"place": "playcamp",
+	"os": "and",
+	"amount": 1,
+	"locale": "ru",
+	"purchase_token": null,
+	"client_version": "a.5.32.4"
+}

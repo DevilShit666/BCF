@@ -3,6 +3,6 @@
 	"game_type": "monsters",
 	"udid": null,
 	"place": "playcamp",
-	"locale": "ru",
-	"type": null
+	"amount": 1,
+	"locale": "ru"
 }

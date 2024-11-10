@@ -1,0 +1,4391 @@
+{
+	"success": "Successfully saved",
+	"monster_energy": {
+		"level": 13,
+		"sec_until_next": 600,
+		"sec_per": 600,
+		"max": 5
+	},
+	"wallet": {
+		"gold": 40
+	},
+	"event_slideups": [{
+		"entity_id": "tocamp",
+		"event_id": "tocamp",
+		"type": "fast_travel",
+		"place": "playcamp"
+	}, {
+		"entity_id": "raidsign",
+		"event_id": "raidsign",
+		"type": "dialogue",
+		"title": "Coming Soon.",
+		"message": "Raids are being cleaned right now."
+	}, {
+		"entity_id": "cave",
+		"event_id": "challenge_cave",
+		"type": "challenge_cave",
+		"url": "https://cdn.battlecamp.com/game-assets/banners/233/epic_dungeon_banner.png",
+		"message": "Говорят, что Эпические монстры собираются в этой пещере, чтобы поделиться сказаниями о своих многочисленных победах. В стихотворной форме. Да, эта пещера тонет в звуках двустиший и пентаметров, в бесконечном море Эпической Стихотворной импровизации.",
+		"seconds": 573.942384856,
+		"title": "Выбери сложность",
+		"button_text": "Начать",
+		"engage_slider": ["Легкий (Шанс сброса - низкий)", "Средний (Шанс сброса - норм.)", "Сложный (Шанс сброса - хороший)", "Экстремальный (Шанс сброса - лучший)"],
+		"slider_rewards": [
+			[{
+				"type": "piece",
+				"amount": 200,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "stones",
+				"amount": 3000000000
+			}],
+			[{
+				"type": "piece",
+				"amount": 2,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "piece",
+				"amount": 1,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "epicspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "ultraspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "superspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "earth5",
+				"complete": true,
+				"hide": true
+			}, {
+				"type": "avatar_gacha",
+				"amount": 1
+			}, {
+				"type": "booster",
+				"amount": 1,
+				"id": "attack_booster_F"
+			}, {
+				"type": "common_gacha",
+				"amount": 1
+			}, {
+				"type": "stones",
+				"amount": 300
+			}],
+			[{
+				"type": "monster",
+				"amount": 1,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"complete": true
+			}, {
+				"type": "piece",
+				"amount": 2,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "piece",
+				"amount": 1,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "epicspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "ultraspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "superspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "earth5",
+				"complete": true,
+				"hide": true
+			}, {
+				"type": "avatar_gacha",
+				"amount": 1
+			}, {
+				"type": "booster",
+				"amount": 1,
+				"id": "attack_booster_F"
+			}, {
+				"type": "common_gacha",
+				"amount": 1
+			}, {
+				"type": "stones",
+				"amount": 300
+			}],
+			[{
+				"type": "monster",
+				"amount": 1,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"complete": true
+			}, {
+				"type": "piece",
+				"amount": 2,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "piece",
+				"amount": 1,
+				"id": "ghoulhound",
+				"apply_multiplier": true,
+				"skill": "crush_3_F",
+				"skill_effects": "7",
+				"hide": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "epicspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "ultraspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "superspecial",
+				"complete": true
+			}, {
+				"type": "monster",
+				"amount": 1,
+				"id": "earth5",
+				"complete": true,
+				"hide": true
+			}, {
+				"type": "avatar_gacha",
+				"amount": 1
+			}, {
+				"type": "booster",
+				"amount": 1,
+				"id": "attack_booster_F"
+			}, {
+				"type": "common_gacha",
+				"amount": 1
+			}, {
+				"type": "stones",
+				"amount": 300
+			}]
+		],
+		"energy_sliders": [
+			[{
+				"energy": 5,
+				"text": "1.0x шанс сброса"
+			}, {
+				"energy": 10,
+				"text": "2.4x шанс сброса"
+			}, {
+				"energy": 25,
+				"text": "6.5x шанс сброса"
+			}, {
+				"energy": 50,
+				"text": "14.0x шанс сброса"
+			}, {
+				"energy": 100,
+				"text": "30.0x шанс сброса"
+			}],
+			[{
+				"energy": 5,
+				"text": "1.0x шанс сброса"
+			}, {
+				"energy": 10,
+				"text": "2.4x шанс сброса"
+			}, {
+				"energy": 25,
+				"text": "6.5x шанс сброса"
+			}, {
+				"energy": 50,
+				"text": "14.0x шанс сброса"
+			}, {
+				"energy": 100,
+				"text": "30.0x шанс сброса"
+			}],
+			[{
+				"energy": 5,
+				"text": "1.0x шанс сброса"
+			}, {
+				"energy": 10,
+				"text": "2.4x шанс сброса"
+			}, {
+				"energy": 25,
+				"text": "6.5x шанс сброса"
+			}, {
+				"energy": 50,
+				"text": "14.0x шанс сброса"
+			}, {
+				"energy": 100,
+				"text": "30.0x шанс сброса"
+			}],
+			[{
+				"energy": 5,
+				"text": "1.0x шанс сброса"
+			}, {
+				"energy": 10,
+				"text": "2.4x шанс сброса"
+			}, {
+				"energy": 25,
+				"text": "6.5x шанс сброса"
+			}, {
+				"energy": 50,
+				"text": "14.0x шанс сброса"
+			}, {
+				"energy": 100,
+				"text": "30.0x шанс сброса"
+			}]
+		],
+		"engage": true
+	}, {
+		"entity_id": "gemstation",
+		"event_id": "gemstation",
+		"type": "gem_forge",
+		"gems": [{
+			"id": "fire_gem_attack_2",
+			"inventory_id": "qp4GjlWMsiIS50nTw2nW0Q",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L2",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 1.75%.",
+			"stats": {
+				"attack": 0.0175,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_1",
+				"amount": 3,
+				"name": "Атака Огня L1",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_3",
+			"inventory_id": "nYV0Fut8vekrtklgghVCuw",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L3",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 3.0%.",
+			"stats": {
+				"attack": 0.03,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_2",
+				"amount": 3,
+				"name": "Атака Огня L2",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_4",
+			"inventory_id": "tYrf6WxJvr5pHOqOCl3lMQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L4",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 4.5%.",
+			"stats": {
+				"attack": 0.045,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_3",
+				"amount": 3,
+				"name": "Атака Огня L3",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_5",
+			"inventory_id": "t4VHI6xpVywX7hk8yLZdzg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L5",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 6.5%.",
+			"stats": {
+				"attack": 0.065,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_4",
+				"amount": 3,
+				"name": "Атака Огня L4",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_6",
+			"inventory_id": "sNoYNGUi3TiWKDJznxVT7g",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L6",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 10.0%.",
+			"stats": {
+				"attack": 0.1,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_5",
+				"amount": 3,
+				"name": "Атака Огня L5",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_7",
+			"inventory_id": "MVbQd6ucJeLDR2Mg8YXcwg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L7",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 14.0%.",
+			"stats": {
+				"attack": 0.14,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_6",
+				"amount": 3,
+				"name": "Атака Огня L6",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_attack_8",
+			"inventory_id": "DfaQz1h0rXgGuialaMJ9qA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Огня L8",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 20.0%.",
+			"stats": {
+				"attack": 0.2,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_attack_7",
+				"amount": 3,
+				"name": "Атака Огня L7",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Атака увеличивается на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_2",
+			"inventory_id": "2JFkzHr9SRSF6suwPqSuzw",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L2",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0175,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_1",
+				"amount": 3,
+				"name": "Атака Камня L1",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_3",
+			"inventory_id": "lDie40akhaKipbUAastxbw",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L3",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.03,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_2",
+				"amount": 3,
+				"name": "Атака Камня L2",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_4",
+			"inventory_id": "PC55lKBY0m7nlsQmL8U9jA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L4",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.045,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_3",
+				"amount": 3,
+				"name": "Атака Камня L3",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_5",
+			"inventory_id": "jiNfzQLETKCTubl2mJdTxg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L5",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.065,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_4",
+				"amount": 3,
+				"name": "Атака Камня L4",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_6",
+			"inventory_id": "3ealwtDzsuSjoId4yzTKKg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L6",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.1,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_5",
+				"amount": 3,
+				"name": "Атака Камня L5",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_7",
+			"inventory_id": "Kf3HsIMx6flK7NfMUvItBw",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L7",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.14,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_6",
+				"amount": 3,
+				"name": "Атака Камня L6",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_attack_8",
+			"inventory_id": "IaiSj8aPbHMISeogZNy1Ag",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Камня L8",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.2,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_attack_7",
+				"amount": 3,
+				"name": "Атака Камня L7",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Атака Каменного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_2",
+			"inventory_id": "M7YO40LxNraejiRBnjM0jQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L2",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0175,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_1",
+				"amount": 3,
+				"name": "Атака Воды L1",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_3",
+			"inventory_id": "wDIAk1EZKu0GCQBhMYQ9XQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L3",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.03,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_2",
+				"amount": 3,
+				"name": "Атака Воды L2",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_4",
+			"inventory_id": "S7cdeWLaIMAQdWkkl1hhsA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L4",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.045,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_3",
+				"amount": 3,
+				"name": "Атака Воды L3",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_5",
+			"inventory_id": "4sXmQ2R9jthpMKuXK4U3gA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L5",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.065,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_4",
+				"amount": 3,
+				"name": "Атака Воды L4",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_6",
+			"inventory_id": "uEA4j42BBskIk6V4kuJcRQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L6",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.1,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_5",
+				"amount": 3,
+				"name": "Атака Воды L5",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_7",
+			"inventory_id": "AyQEh10kX5r89xZB5oiE2g",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L7",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.14,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_6",
+				"amount": 3,
+				"name": "Атака Воды L6",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_attack_8",
+			"inventory_id": "V48sQsLLVxcmp4rHt0tpbg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Воды L8",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.2,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_attack_7",
+				"amount": 3,
+				"name": "Атака Воды L7",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Атака Водного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_2",
+			"inventory_id": "wx82HMd8b3nae4R3Dx71OA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L2",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0175,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_1",
+				"amount": 3,
+				"name": "Атака Листа L1",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_3",
+			"inventory_id": "ddf7Yy5o5T3zssCqA3eRmA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L3",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.03,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_2",
+				"amount": 3,
+				"name": "Атака Листа L2",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_4",
+			"inventory_id": "E2ImVoUiIdrudLb79xbgwA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L4",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.045,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_3",
+				"amount": 3,
+				"name": "Атака Листа L3",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_5",
+			"inventory_id": "bwHvma6yG6KSxLDNfXJq1g",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L5",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.065,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_4",
+				"amount": 3,
+				"name": "Атака Листа L4",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_6",
+			"inventory_id": "Jd0FKpppEQZjeP1JmyJgCg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L6",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.1,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_5",
+				"amount": 3,
+				"name": "Атака Листа L5",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_7",
+			"inventory_id": "0oOebpKSDK4MckEZ1mrj4w",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L7",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.14,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_6",
+				"amount": 3,
+				"name": "Атака Листа L6",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_attack_8",
+			"inventory_id": "grvR1z2sSZmLhJ2MJ95JIw",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Листа L8",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.2,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_attack_7",
+				"amount": 3,
+				"name": "Атака Листа L7",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Атака Лиственного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_2",
+			"inventory_id": "MiFnNJFChN8ms6delQcLfA",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L2",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0175,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_1",
+				"amount": 3,
+				"name": "Атака Ветра L1",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_3",
+			"inventory_id": "X5DTNZV0XYtE1h6L8poLDQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L3",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.03,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_2",
+				"amount": 3,
+				"name": "Атака Ветра L2",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_4",
+			"inventory_id": "v74aMzNZv1PsW1j5aCaiAg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L4",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.045,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_3",
+				"amount": 3,
+				"name": "Атака Ветра L3",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_5",
+			"inventory_id": "QEyM5ja0ZlynBZrwhpQyYg",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L5",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.065,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_4",
+				"amount": 3,
+				"name": "Атака Ветра L4",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_6",
+			"inventory_id": "4e7WHV5jWZKOk42x78lEcQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L6",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.1,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_5",
+				"amount": 3,
+				"name": "Атака Ветра L5",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_7",
+			"inventory_id": "gi9OVffXGNlNoJH4SbRK9g",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L7",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.14,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_6",
+				"amount": 3,
+				"name": "Атака Ветра L6",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_attack_8",
+			"inventory_id": "FGzwjRXRAVd6tIs2gwDLVQ",
+			"type": "gem",
+			"subtype": "attack",
+			"amount": 1,
+			"name": "Атака Ветра L8",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.2,
+				"max_hp": 0.0,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_attack_7",
+				"amount": 3,
+				"name": "Атака Ветра L7",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Атака Ветреного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_2",
+			"inventory_id": "0RVplMc6XcDP5uDjWDsJ4A",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L2",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0175,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_1",
+				"amount": 3,
+				"name": "Здоровье Огня L1",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_3",
+			"inventory_id": "uVA2OYfn3sgSIgNBD2QYGw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L3",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.03,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_2",
+				"amount": 3,
+				"name": "Здоровье Огня L2",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_4",
+			"inventory_id": "wz9eYKew14D0UejZdU9fGw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L4",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.045,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_3",
+				"amount": 3,
+				"name": "Здоровье Огня L3",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_5",
+			"inventory_id": "Vis5WKrlfrr4CxfeRmnGrA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L5",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.065,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_4",
+				"amount": 3,
+				"name": "Здоровье Огня L4",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_6",
+			"inventory_id": "hefH1msDVqejK5JAqPiW6Q",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L6",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.1,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_5",
+				"amount": 3,
+				"name": "Здоровье Огня L5",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_7",
+			"inventory_id": "cWS2YxmKPQE7rroOjCKKMw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L7",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.14,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_6",
+				"amount": 3,
+				"name": "Здоровье Огня L6",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_hp_8",
+			"inventory_id": "cmiaELYLkhvQvupC37rpLA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Огня L8",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.2,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_hp_7",
+				"amount": 3,
+				"name": "Здоровье Огня L7",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Hp увеличивается на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_2",
+			"inventory_id": "bPmJjcaEzk64gFAKn1Mmuw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L2",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0175,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_1",
+				"amount": 3,
+				"name": "Здоровье Камня L1",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_3",
+			"inventory_id": "MVX60QAamFaiLDOK5LS3Vw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L3",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.03,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_2",
+				"amount": 3,
+				"name": "Здоровье Камня L2",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_4",
+			"inventory_id": "am6ZIQ2G8aOZNRvajTUoow",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L4",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.045,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_3",
+				"amount": 3,
+				"name": "Здоровье Камня L3",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_5",
+			"inventory_id": "tXO42JHS9pLoe8T0c80ByQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L5",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.065,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_4",
+				"amount": 3,
+				"name": "Здоровье Камня L4",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_6",
+			"inventory_id": "cUXgb6RxniRP7qlB80q7eQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L6",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.1,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_5",
+				"amount": 3,
+				"name": "Здоровье Камня L5",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_7",
+			"inventory_id": "41OLu1H5jF7YKp6nN1UXyg",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L7",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.14,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_6",
+				"amount": 3,
+				"name": "Здоровье Камня L6",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_hp_8",
+			"inventory_id": "G0L2IuCcpofnxq106TGRIQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Камня L8",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.2,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_hp_7",
+				"amount": 3,
+				"name": "Здоровье Камня L7",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Hp Каменного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_2",
+			"inventory_id": "0IgYHngfhX9tMxwpXmrw6w",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L2",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0175,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_1",
+				"amount": 3,
+				"name": "Здоровье Воды L1",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_3",
+			"inventory_id": "rSPPanftojcQA0seJy1X9A",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L3",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.03,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_2",
+				"amount": 3,
+				"name": "Здоровье Воды L2",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_4",
+			"inventory_id": "llyUvueyYVbSABzIrqpmkQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L4",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.045,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_3",
+				"amount": 3,
+				"name": "Здоровье Воды L3",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_5",
+			"inventory_id": "ONBcMRT2IaXusZg69rjS1Q",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L5",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.065,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_4",
+				"amount": 3,
+				"name": "Здоровье Воды L4",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_6",
+			"inventory_id": "mLGRGknpvEU2DXTYIBzk9w",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L6",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.1,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_5",
+				"amount": 3,
+				"name": "Здоровье Воды L5",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_7",
+			"inventory_id": "KsgIVjzhWYilhjEWCUIhbA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L7",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.14,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_6",
+				"amount": 3,
+				"name": "Здоровье Воды L6",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_hp_8",
+			"inventory_id": "mZMcddR9Nk9fmOdUZQKoAw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Воды L8",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.2,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_hp_7",
+				"amount": 3,
+				"name": "Здоровье Воды L7",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Hp Водного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_2",
+			"inventory_id": "xqVetY4B0CvHy1OM7c75yg",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L2",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0175,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_1",
+				"amount": 3,
+				"name": "Здоровье Листа L1",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_3",
+			"inventory_id": "DqJzSoG6IP34joa25jKFuA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L3",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.03,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_2",
+				"amount": 3,
+				"name": "Здоровье Листа L2",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_4",
+			"inventory_id": "yVF5hia9n22jo3MPKdf7kg",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L4",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.045,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_3",
+				"amount": 3,
+				"name": "Здоровье Листа L3",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_5",
+			"inventory_id": "TCRYTJC6jvOccp6kxQPtpQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L5",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.065,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_4",
+				"amount": 3,
+				"name": "Здоровье Листа L4",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_6",
+			"inventory_id": "PpuyAFbFFeug8H8WBVhoaA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L6",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.1,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_5",
+				"amount": 3,
+				"name": "Здоровье Листа L5",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_7",
+			"inventory_id": "a9kkXlPnjFGhBBH2vs3MrA",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L7",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.14,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_6",
+				"amount": 3,
+				"name": "Здоровье Листа L6",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_hp_8",
+			"inventory_id": "sy8r17cIn4gVA9kbq7Qkkw",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Листа L8",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.2,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_hp_7",
+				"amount": 3,
+				"name": "Здоровье Листа L7",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Hp Лиственного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_2",
+			"inventory_id": "rsySk2vgAV2IXeLbyn5stg",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L2",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0175,
+				"recovery": 0.0
+			},
+			"level": 2,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_1",
+				"amount": 3,
+				"name": "Здоровье Ветра L1",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_3",
+			"inventory_id": "OxhW6bwaCEeg49OQudmj8w",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L3",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.03,
+				"recovery": 0.0
+			},
+			"level": 3,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_2",
+				"amount": 3,
+				"name": "Здоровье Ветра L2",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_4",
+			"inventory_id": "kerbWWnT1mg1UZUwI1Cx2w",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L4",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.045,
+				"recovery": 0.0
+			},
+			"level": 4,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_3",
+				"amount": 3,
+				"name": "Здоровье Ветра L3",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_5",
+			"inventory_id": "figEJB69tQB8FxcQ0Zyo0w",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L5",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.065,
+				"recovery": 0.0
+			},
+			"level": 5,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_4",
+				"amount": 3,
+				"name": "Здоровье Ветра L4",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_6",
+			"inventory_id": "wkHBWynWEKvUbKbhI8lyKQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L6",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.1,
+				"recovery": 0.0
+			},
+			"level": 6,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_5",
+				"amount": 3,
+				"name": "Здоровье Ветра L5",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_7",
+			"inventory_id": "mEIKCDQR44DDZwFc0urOew",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L7",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.14,
+				"recovery": 0.0
+			},
+			"level": 7,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_6",
+				"amount": 3,
+				"name": "Здоровье Ветра L6",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_hp_8",
+			"inventory_id": "pZl43QnLXW1kIRMwiiVKCQ",
+			"type": "gem",
+			"subtype": "health",
+			"amount": 1,
+			"name": "Здоровье Ветра L8",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.2,
+				"recovery": 0.0
+			},
+			"level": 8,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_hp_7",
+				"amount": 3,
+				"name": "Здоровье Ветра L7",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Hp Ветреного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_2",
+			"inventory_id": "bdfXzlm9WHyyxKw8ilWfXg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L2",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.0175
+			},
+			"level": 2,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_1",
+				"amount": 3,
+				"name": "Реген Огня L1",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_3",
+			"inventory_id": "DfzizqIa94h7o9xNNaGiyg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L3",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.03
+			},
+			"level": 3,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_2",
+				"amount": 3,
+				"name": "Реген Огня L2",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_4",
+			"inventory_id": "huWQCcIYT8kt9TYIl1mBWg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L4",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.045
+			},
+			"level": 4,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_3",
+				"amount": 3,
+				"name": "Реген Огня L3",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_5",
+			"inventory_id": "iw30V7Lr9rvX6q99NwyjlQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L5",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.065
+			},
+			"level": 5,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_4",
+				"amount": 3,
+				"name": "Реген Огня L4",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_6",
+			"inventory_id": "ihbkdAqFdZljynlZIcsnZQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L6",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.1
+			},
+			"level": 6,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_5",
+				"amount": 3,
+				"name": "Реген Огня L5",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_7",
+			"inventory_id": "MnxsUPd14Wt1Pw0NCed7ww",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L7",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.14
+			},
+			"level": 7,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_6",
+				"amount": 3,
+				"name": "Реген Огня L6",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "fire_gem_recovery_8",
+			"inventory_id": "6ejBZRqpbhVeUTdnkRsFVw",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Огня L8",
+			"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.2
+			},
+			"level": 8,
+			"element": 0,
+			"upgrade_ingredients": [{
+				"item_id": "fire_gem_recovery_7",
+				"amount": 3,
+				"name": "Реген Огня L7",
+				"description": "Добыт из эксклюзивных участков ядра Земли. При использовании этого Самоцвета в снаряжении Восстановление увеличивается на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_2",
+			"inventory_id": "xftSuEw9KoRSPXN8yKCW4w",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L2",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.0175
+			},
+			"level": 2,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_1",
+				"amount": 3,
+				"name": "Реген Камня L1",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_3",
+			"inventory_id": "yqQKWlQGer8R9SWMtW03pg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L3",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.03
+			},
+			"level": 3,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_2",
+				"amount": 3,
+				"name": "Реген Камня L2",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_4",
+			"inventory_id": "uloZO2rGyqiBHxFMdVMUow",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L4",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.045
+			},
+			"level": 4,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_3",
+				"amount": 3,
+				"name": "Реген Камня L3",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_5",
+			"inventory_id": "IdQNFqqdmQqQAJye8LBxjw",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L5",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.065
+			},
+			"level": 5,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_4",
+				"amount": 3,
+				"name": "Реген Камня L4",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_6",
+			"inventory_id": "1zms1c2mgFG0h1zQgFYBAQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L6",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.1
+			},
+			"level": 6,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_5",
+				"amount": 3,
+				"name": "Реген Камня L5",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_7",
+			"inventory_id": "RsJV9m0JeOSEtLgova0vgg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L7",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.14
+			},
+			"level": 7,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_6",
+				"amount": 3,
+				"name": "Реген Камня L6",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "rock_gem_recovery_8",
+			"inventory_id": "LQFRSz5RDgzG45fU7zi4iA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Камня L8",
+			"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.2
+			},
+			"level": 8,
+			"element": 1,
+			"upgrade_ingredients": [{
+				"item_id": "rock_gem_recovery_7",
+				"amount": 3,
+				"name": "Реген Камня L7",
+				"description": "Как бы не было грустно, но некоторые камни немного красивее остальных. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Каменного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_2",
+			"inventory_id": "6hZsBr4txmhKVWpoRYAZ0w",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L2",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.0175
+			},
+			"level": 2,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_1",
+				"amount": 3,
+				"name": "Реген Воды L1",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_3",
+			"inventory_id": "Pt5Q0lXnYaIsNMcdviayIQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L3",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.03
+			},
+			"level": 3,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_2",
+				"amount": 3,
+				"name": "Реген Воды L2",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_4",
+			"inventory_id": "IDLDsJc04D5NgR7xaRRvSA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L4",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.045
+			},
+			"level": 4,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_3",
+				"amount": 3,
+				"name": "Реген Воды L3",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_5",
+			"inventory_id": "fVZ6TvYrkU850hII3QU9HQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L5",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.065
+			},
+			"level": 5,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_4",
+				"amount": 3,
+				"name": "Реген Воды L4",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_6",
+			"inventory_id": "To9iYJo5XVklV2k8VCOzuw",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L6",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.1
+			},
+			"level": 6,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_5",
+				"amount": 3,
+				"name": "Реген Воды L5",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_7",
+			"inventory_id": "V41Kckrs6dnYjsx9DwX7lA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L7",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.14
+			},
+			"level": 7,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_6",
+				"amount": 3,
+				"name": "Реген Воды L6",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "water_gem_recovery_8",
+			"inventory_id": "6BSVU6qFpVNO6YoYDYXmfg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Воды L8",
+			"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.2
+			},
+			"level": 8,
+			"element": 2,
+			"upgrade_ingredients": [{
+				"item_id": "water_gem_recovery_7",
+				"amount": 3,
+				"name": "Реген Воды L7",
+				"description": "Говорят, что если прислушаться, то можно услышать внутри него океан. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Водного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_2",
+			"inventory_id": "Q2eflM7gwTa9dxl7aoLjww",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L2",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.0175
+			},
+			"level": 2,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_1",
+				"amount": 3,
+				"name": "Реген Листа L1",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_3",
+			"inventory_id": "6cjMosgF7iCLp5O2kuoSkA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L3",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.03
+			},
+			"level": 3,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_2",
+				"amount": 3,
+				"name": "Реген Листа L2",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_4",
+			"inventory_id": "ANA5LoliFq7ZffoT14pZuA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L4",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.045
+			},
+			"level": 4,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_3",
+				"amount": 3,
+				"name": "Реген Листа L3",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_5",
+			"inventory_id": "cZjv1dw4wzCSiRz00ihl6A",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L5",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.065
+			},
+			"level": 5,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_4",
+				"amount": 3,
+				"name": "Реген Листа L4",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_6",
+			"inventory_id": "yQn2Mjkuozru8hSyfQFyIg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L6",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.1
+			},
+			"level": 6,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_5",
+				"amount": 3,
+				"name": "Реген Листа L5",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_7",
+			"inventory_id": "0R4fOn0oLF5DdQRiAeAQZA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L7",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.14
+			},
+			"level": 7,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_6",
+				"amount": 3,
+				"name": "Реген Листа L6",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "leaf_gem_recovery_8",
+			"inventory_id": "su9be41P3zd8bggtP1Hppg",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Листа L8",
+			"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.2
+			},
+			"level": 8,
+			"element": 3,
+			"upgrade_ingredients": [{
+				"item_id": "leaf_gem_recovery_7",
+				"amount": 3,
+				"name": "Реген Листа L7",
+				"description": "На 100% изготовлен из переработанного тропического леса. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Лиственного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_2",
+			"inventory_id": "QkYSsaQaa7fGCXZxhm1RwQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L2",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 1.75%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.0175
+			},
+			"level": 2,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_1",
+				"amount": 3,
+				"name": "Реген Ветра L1",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 1.0%."
+			}],
+			"upgrade_cost": 10,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 3,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_3",
+			"inventory_id": "LihI7LQNf2rI6ZmEvXqQPw",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L3",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 3.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.03
+			},
+			"level": 3,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_2",
+				"amount": 3,
+				"name": "Реген Ветра L2",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 1.75%."
+			}],
+			"upgrade_cost": 35,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 8,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_4",
+			"inventory_id": "kD4HonzFIptC6wBlpY82kA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L4",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 4.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.045
+			},
+			"level": 4,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_3",
+				"amount": 3,
+				"name": "Реген Ветра L3",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 3.0%."
+			}],
+			"upgrade_cost": 75,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 15,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_5",
+			"inventory_id": "ZZCqJgNwfsJqjAJ9WK8y8A",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L5",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 6.5%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.065
+			},
+			"level": 5,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_4",
+				"amount": 3,
+				"name": "Реген Ветра L4",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 4.5%."
+			}],
+			"upgrade_cost": 150,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 30,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_6",
+			"inventory_id": "S1dnDN2K4Ixq316auE7FFA",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L6",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 10.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.1
+			},
+			"level": 6,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_5",
+				"amount": 3,
+				"name": "Реген Ветра L5",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 6.5%."
+			}],
+			"upgrade_cost": 250,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 60,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_7",
+			"inventory_id": "3InTreQK8TaorQUdEi8UhQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L7",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 14.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.14
+			},
+			"level": 7,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_6",
+				"amount": 3,
+				"name": "Реген Ветра L6",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 10.0%."
+			}],
+			"upgrade_cost": 500,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 100,
+			"success_rate": 75
+		}, {
+			"id": "wind_gem_recovery_8",
+			"inventory_id": "MXhm1apPoBB8PLwdy7aAHQ",
+			"type": "gem",
+			"subtype": "recovery",
+			"amount": 1,
+			"name": "Реген Ветра L8",
+			"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 20.0%.",
+			"stats": {
+				"attack": 0.0,
+				"max_hp": 0.0,
+				"recovery": 0.2
+			},
+			"level": 8,
+			"element": 4,
+			"upgrade_ingredients": [{
+				"item_id": "wind_gem_recovery_7",
+				"amount": 3,
+				"name": "Реген Ветра L7",
+				"description": "Когда держишь его в руках, в голову приходят только хорошие мысли. Добавление этого Самоцвета в снаряжение увеличивает Восстановление Ветреного Монстра на 14.0%."
+			}],
+			"upgrade_cost": 1000,
+			"upgrade_currency": "stones",
+			"scroll_buy_cost": 5,
+			"scroll_buy_currency": "gold",
+			"scrolls_requirement": 150,
+			"success_rate": 75
+		}]
+	}, {
+		"entity_id": "forgestation",
+		"event_id": "forgestation",
+		"type": "equipment_forge",
+		"equipments": [{
+			"id": "equipment_atk_1",
+			"inventory_id": "5LXsHZwTjUAJdlc2LHmYtQ",
+			"type": "equipment",
+			"subtype": "attack",
+			"name": "Атакующий Нож",
+			"description": "Увеличивает Атаку на 1.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0.015,
+				"max_hp": 0,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_atk_bp_1",
+					"amount": 1,
+					"name": "Чертежи ножа",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}, {
+			"id": "equipment_atk_2",
+			"inventory_id": "uxvxFfkXPAAk9QiTS6VOPg",
+			"type": "equipment",
+			"subtype": "attack",
+			"name": "Атакующий Коготь",
+			"description": "Увеличивает Атаку на 2.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 2,
+			"level": 2,
+			"stats": {
+				"attack": 0.025,
+				"max_hp": 0,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 1000,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_2",
+					"amount": 10,
+					"name": "Осколок для Улучшения",
+					"buy_currency": "gold",
+					"buy_cost": 20
+				}, {
+					"type": "quest",
+					"id": "equipment_atk_bp_2",
+					"amount": 1,
+					"name": "Чертежи когтя",
+					"buy_currency": "gold",
+					"buy_cost": 50
+				}, {
+					"type": "equipment",
+					"id": "equipment_atk_1",
+					"amount": 1,
+					"name": "Атакующий Нож",
+					"buy_currency": "gold",
+					"buy_cost": 75
+				}, {
+					"type": "quest",
+					"id": "anvil",
+					"amount": 10,
+					"name": "Мини Наковальня",
+					"buy_currency": "gold",
+					"buy_cost": 5
+				}]
+			}
+		}, {
+			"id": "equipment_hp_1",
+			"inventory_id": "Fq3635298WkJSxFB0l1ODw",
+			"type": "equipment",
+			"subtype": "health",
+			"name": "Ошейник Здоровья",
+			"description": "Увеличивает Здоровье на 1.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0.015,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_hp_bp_1",
+					"amount": 1,
+					"name": "Чертежи ошейника",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}, {
+			"id": "equipment_hp_2",
+			"inventory_id": "E6cdIQCPZH5d3LNpASo0IQ",
+			"type": "equipment",
+			"subtype": "health",
+			"name": "Повязка Здоровья",
+			"description": "Увеличивает Здоровье на 2.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 2,
+			"level": 2,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0.025,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 1000,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_2",
+					"amount": 10,
+					"name": "Осколок для Улучшения",
+					"buy_currency": "gold",
+					"buy_cost": 20
+				}, {
+					"type": "quest",
+					"id": "equipment_hp_bp_2",
+					"amount": 1,
+					"name": "Чертежи повязки",
+					"buy_currency": "gold",
+					"buy_cost": 50
+				}, {
+					"type": "equipment",
+					"id": "equipment_hp_1",
+					"amount": 1,
+					"name": "Ошейник Здоровья",
+					"buy_currency": "gold",
+					"buy_cost": 75
+				}, {
+					"type": "quest",
+					"id": "anvil",
+					"amount": 10,
+					"name": "Мини Наковальня",
+					"buy_currency": "gold",
+					"buy_cost": 5
+				}]
+			}
+		}, {
+			"id": "equipment_recovery_1",
+			"inventory_id": "rqF8GAdCKejRctXrWlCNrA",
+			"type": "equipment",
+			"subtype": "recovery",
+			"name": "Безделушка Регена",
+			"description": "Увеличивает Восстановление на 1.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0,
+				"recovery": 0.015
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_recovery_bp_1",
+					"amount": 1,
+					"name": "Чертежи безделушки",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}, {
+			"id": "equipment_recovery_2",
+			"inventory_id": "960TlSPyG62W8NpTd0o5lg",
+			"type": "equipment",
+			"subtype": "recovery",
+			"name": "Брелок Регена",
+			"description": "Увеличивает Восстановление на 2.5%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 2,
+			"level": 2,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0,
+				"recovery": 0.025
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": false,
+			"synth": {
+				"synth_cost": 1000,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_2",
+					"amount": 10,
+					"name": "Осколок для Улучшения",
+					"buy_currency": "gold",
+					"buy_cost": 20
+				}, {
+					"type": "quest",
+					"id": "equipment_recovery_bp_2",
+					"amount": 1,
+					"name": "Чертежи брелка",
+					"buy_currency": "gold",
+					"buy_cost": 50
+				}, {
+					"type": "equipment",
+					"id": "equipment_recovery_1",
+					"amount": 1,
+					"name": "Безделушка Регена",
+					"buy_currency": "gold",
+					"buy_cost": 75
+				}, {
+					"type": "quest",
+					"id": "anvil",
+					"amount": 10,
+					"name": "Мини Наковальня",
+					"buy_currency": "gold",
+					"buy_cost": 5
+				}]
+			}
+		}, {
+			"id": "equipment_atk_1_bound",
+			"inventory_id": "hfs4cAv32D2cIm6pKk0x9g",
+			"type": "equipment",
+			"subtype": "attack",
+			"name": "Коготь Люцефрита",
+			"description": "Увеличивает Атаку на 50.0%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0.5,
+				"max_hp": 0,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": true,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_atk_bp_1",
+					"amount": 1,
+					"name": "Чертежи ножа",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}, {
+			"id": "equipment_hp_1_bound",
+			"inventory_id": "1OO645r0IaEzNjC708gTVw",
+			"type": "equipment",
+			"subtype": "health",
+			"name": "Пластина Тектитана",
+			"description": "Увеличивает Здоровье на 50.0%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0.5,
+				"recovery": 0
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": true,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_hp_bp_1",
+					"amount": 1,
+					"name": "Чертежи ошейника",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}, {
+			"id": "equipment_recovery_1_bound",
+			"inventory_id": "UEit2J3dAeR42RmyU2UlPQ",
+			"type": "equipment",
+			"subtype": "recovery",
+			"name": "Лекарстветто Парасетта",
+			"description": "Увеличивает Восстановление на 50.0%. Можно дополнить Самоцветами, которые увеличивают параметры монстра, который его носит.",
+			"sell_price": 100,
+			"rarity": 1,
+			"level": 1,
+			"stats": {
+				"attack": 0,
+				"max_hp": 0,
+				"recovery": 0.5
+			},
+			"slots": [{
+				"type": "locked",
+				"gem_type": "recovery",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 20,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "attack",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 50,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}, {
+				"type": "locked",
+				"gem_type": "health",
+				"unlock_item_id": "hammer",
+				"unlock_amount": 100,
+				"buy_currency": "gold",
+				"buy_cost": 5
+			}],
+			"durability": {
+				"at": 100,
+				"max": 100,
+				"repair_cost": 100,
+				"repair_currency": "stones",
+				"broken_at": 0,
+				"broken_potency": 0.5
+			},
+			"unsocket_cost": 250,
+			"unsocket_currency": "stones",
+			"equip": {
+				"equipped": false,
+				"equip_cost": 100,
+				"equip_currency": "stones",
+				"unequip_cost": 100,
+				"unequip_currency": "stones"
+			},
+			"bound": true,
+			"synth": {
+				"synth_cost": 250,
+				"synth_currency": "stones",
+				"synth_ingredients": [{
+					"type": "quest",
+					"id": "shard_1",
+					"amount": 5,
+					"name": "Осколок для Создания",
+					"buy_currency": "gold",
+					"buy_cost": 10
+				}, {
+					"type": "quest",
+					"id": "equipment_recovery_bp_1",
+					"amount": 1,
+					"name": "Чертежи безделушки",
+					"buy_currency": "gold",
+					"buy_cost": 15
+				}]
+			}
+		}]
+	}, {
+		"entity_id": "salvagestation",
+		"event_id": "salvagestation",
+		"type": "salvage",
+		"monsters": [{
+			"name": "m' AND id=",
+			"element": 4,
+			"multi_elements": [],
+			"id": "tibetanspirit",
+			"inventory_id": "9k5bCqInyISTVVPCO0mtBw",
+			"attack": 110,
+			"max_hp": 1550,
+			"recovery": 119,
+			"party_index": -1,
+			"pieces": [true, true, true, true],
+			"updated_at": "2024-08-24 13:33:23 UTC",
+			"seconds_to_complete": 0,
+			"level": 1,
+			"xp": 0,
+			"xp_next": 21,
+			"xp_current": 0,
+			"sell_price": 10,
+			"fuse_cost": 5,
+			"hurry_cost": 10,
+			"max_xp": 192780,
+			"max_level": 40,
+			"evolve_at": 20,
+			"evolve_cost": 2500,
+			"zodiac": "taurus",
+			"scale": 1.1,
+			"passive": {
+				"stars": 3,
+				"name": "Убийца",
+				"description": "Этот монстр получает 55% Атаки, когда три других монстра соответствуют Зодиаку этого монстра.",
+				"effects": [{
+					"type": "attack",
+					"elements": [0, 2, 4, 1, 3],
+					"multiplier": 1.55,
+					"zodiac_bonus": 0
+				}],
+				"icon": "DPS",
+				"level": 1,
+				"id": "attack",
+				"max_level": 15,
+				"zodiac_req": 3,
+				"additonal_feeding_skills": ["attack_plus"]
+			},
+			"skills": [{
+				"id": "snipe_2_A",
+				"name": "Выстрел",
+				"ability": "multiplied_damage_2",
+				"effects": [3.5],
+				"effect_elements": [4],
+				"targets": 1,
+				"target_elements": [4, 0, 3, 1, 2, 6],
+				"duration": 0.0,
+				"cooldown": 3.0,
+				"initial_cooldown": 3.0,
+				"element": 4,
+				"description": "Наносит Ветер урон, равный 350% Атаки противнику с максимальным Здоровьем."
+			}],
+			"evolution": {
+				"reqs": ["tibetanspirit", "wind5", "wind5", "wind5", "wind5"],
+				"attack": 110,
+				"max_hp": 1550,
+				"recovery": 119
+			},
+			"hatch": false,
+			"equipment_slots": [{
+				"type": "attack",
+				"unlock_level": 15
+			}],
+			"salvage": {
+				"salvage_currency": "stones",
+				"salvage_cost": 50,
+				"rewards": [{
+					"type": "item",
+					"id": "rare_essence",
+					"amount": 1,
+					"amount_offset": 6,
+					"name": "Редкая Эссенция"
+				}]
+			},
+			"attack_bonus": 1.32,
+			"max_hp_bonus": 0.0,
+			"recovery_bonus": 0.0
+		}, {
+			"name": "Jaron",
+			"element": 2,
+			"multi_elements": [4],
+			"id": "5270raidrwdsuper",
+			"inventory_id": "jt2s6qOt2VhwfGNfYKLGfA",
+			"attack": 407,
+			"max_hp": 5133,
+			"recovery": 212,
+			"party_index": -1,
+			"pieces": [true],
+			"updated_at": "2024-08-27 19:29:07 UTC",
+			"seconds_to_complete": 0,
+			"level": 7,
+			"xp": 1855,
+			"xp_next": 2727,
+			"xp_current": 1855,
+			"sell_price": 17,
+			"fuse_cost": 35,
+			"hurry_cost": 10,
+			"max_xp": 294750,
+			"max_level": 50,
+			"evolve_at": 25,
+			"evolve_cost": 5000,
+			"zodiac": "virgo",
+			"scale": 1.0,
+			"event_type": "reward",
+			"attack_plus_level": 0,
+			"max_hp_plus_level": 0,
+			"recovery_plus_level": 0,
+			"attack_plus_stats": 0,
+			"max_hp_plus_stats": 0,
+			"recovery_plus_stats": 0,
+			"passive": {
+				"stars": 3,
+				"name": "Жулик+",
+				"description": "Получи 65% Атаки и потеряй 10% Здоровья, если 3 одинаковых зодиака, совпадающих с зодиаком монстра, присутствуют в команде.",
+				"effects": [{
+					"type": "attack",
+					"elements": [0, 2, 4, 1, 3],
+					"multiplier": 1.65,
+					"zodiac_bonus": 0
+				}, {
+					"type": "max_hp",
+					"elements": [0, 2, 4, 1, 3],
+					"multiplier": 0.9,
+					"zodiac_bonus": 0
+				}],
+				"icon": "DPS",
+				"level": 1,
+				"id": "atklesshp_plus",
+				"max_level": 30,
+				"zodiac_req": 3,
+				"additonal_feeding_skills": ["atklesshp"]
+			},
+			"skills": [{
+				"id": "venom_3_plus_N",
+				"name": "Миазмы+",
+				"ability": "poison_2",
+				"effects": [1.5],
+				"effect_elements": [4, 0, 3, 1, 2],
+				"targets": 5,
+				"target_elements": [4, 0, 3, 1, 2, 6],
+				"duration": 3.0,
+				"cooldown": 3.0,
+				"initial_cooldown": 2.0,
+				"element": 6,
+				"description": "Наносит урон, равный 150% Атаки за ход для 3 ходов всем врагам. Игнорирует защитные способности."
+			}],
+			"evolution": {
+				"reqs": ["5270raidrwdsuper", "superspecial", "water5", "water5", "water5"],
+				"attack": 397,
+				"max_hp": 5002,
+				"recovery": 207
+			},
+			"hatch": false,
+			"follow_distance": 2,
+			"equipment_slots": [{
+				"type": "attack",
+				"unlock_level": 1,
+				"inventory_id": "9SXx5hkGbXNqOwDno0MNIw"
+			}, {
+				"type": "health",
+				"unlock_level": 1,
+				"inventory_id": "fd3miAMN9FpvNfb6HzEdCg"
+			}, {
+				"type": "recovery",
+				"unlock_level": 1,
+				"inventory_id": "AB5TxyDSH5Ql6cUpEAnx6g"
+			}],
+			"salvage": {
+				"salvage_currency": "stones",
+				"salvage_cost": 225,
+				"rewards": [{
+					"type": "item",
+					"id": "super_essence",
+					"amount": 1,
+					"amount_offset": 6,
+					"name": "Супер Эссенция"
+				}]
+			},
+			"attack_bonus": 208.38400000000001,
+			"max_hp_bonus": 2566.5,
+			"recovery_bonus": 106.0
+		}],
+		"crafting": [{
+			"craft_id": "super",
+			"reward": {
+				"type": "monster",
+				"id": "ironsaurus",
+				"amount": 1,
+				"hide": true,
+				"complete": true
+			},
+			"crafting_time": 86400,
+			"cost": 1000,
+			"essence_id": "rare_essence",
+			"essence_amount": 115
+		}, {
+			"craft_id": "ultra",
+			"reward": {
+				"type": "monster",
+				"id": "stonehead",
+				"amount": 1,
+				"hide": true,
+				"complete": true
+			},
+			"crafting_time": 172800,
+			"cost": 5000,
+			"essence_id": "super_essence",
+			"essence_amount": 100
+		}, {
+			"craft_id": "epic",
+			"reward": {
+				"type": "monster",
+				"id": "boneysaur",
+				"amount": 1,
+				"hide": true,
+				"complete": true
+			},
+			"crafting_time": 259200,
+			"cost": 9500,
+			"essence_id": "ultra_essence",
+			"essence_amount": 90
+		}]
+	}, {
+		"entity_id": "troopraid",
+		"event_id": "troopraid",
+		"type": "troop_raid"
+	}, {
+		"entity_id": "crew_pet-3UEAgDyAWVFW6lKnSylZfA",
+		"event_id": "crew_pet-3UEAgDyAWVFW6lKnSylZfA",
+		"type": "donate_pet",
+		"title": "Кормить",
+		"message": "Специальные Монстры повышают мой уровень",
+		"monsters": [{
+			"monster_id": "fire5",
+			"points": 1
+		}, {
+			"monster_id": "water5",
+			"points": 1
+		}, {
+			"monster_id": "grass5",
+			"points": 1
+		}],
+		"total_points": 480,
+		"points_at": 230,
+		"button_text": "Кормить",
+		"left": "Lvl 48",
+		"right": "48%",
+		"gacha": "quest",
+		"pet": {
+			"title": "Питомец",
+			"text": "Погладь Питомца своего Отряда и сделай его счастливей!",
+			"progress": 0.51,
+			"next_progress": 0.52
+		}
+	}, {
+		"entity_id": "trainer_male_5",
+		"event_id": "trainer_male_5",
+		"type": "donate_progress",
+		"title": "Подарить",
+		"message": "Нажми, чтобы подарить.",
+		"chatbox": ["Принеси мне еще 18 Печать, и я подарю твоему отряду Тайные Яйца."],
+		"monster_items": [{
+			"id": "hanky",
+			"points": 1
+		}],
+		"total_points": 100,
+		"points_at": 82,
+		"button_text": "Подарить",
+		"left": "В",
+		"right": "82%",
+		"keep_expired": true
+	}, {
+		"entity_id": "monster_trader",
+		"event_id": "monster_trader",
+		"type": "shop",
+		"title": "Торговец",
+		"message": "Я люблю монстров! Конечно, я люблю несколько больше, чем другие!\n\nResets: 2024-09-11 00:00:00 UTC",
+		"offers": [{
+			"items": [{
+				"type": "monster",
+				"id": "570raidrwdlegendary",
+				"at": 0,
+				"goal": 6
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "551raidrwdmythic",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "e9sinanju",
+				"at": 0,
+				"goal": 5
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "490firewindmythic",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "410raidrwdepic",
+				"at": 0,
+				"goal": 10
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "430raidrwdlegendary",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "bastet",
+				"at": 0,
+				"goal": 7
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "451exodia",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "400raidrwdepic",
+				"at": 0,
+				"goal": 8
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "460cnyrwdlegendary",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "pitcherpara",
+				"at": 0,
+				"goal": 5
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "valbearepic",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "e11waterspirit",
+				"at": 0,
+				"goal": 7
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "e14reaper",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "e16fippogryph",
+				"at": 0,
+				"goal": 7
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "hellsloth",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "windptero",
+				"at": 0,
+				"goal": 11
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "e5snailbra",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "kappa",
+				"at": 0,
+				"goal": 8
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "jumpspider",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "tdfirebird",
+				"at": 0,
+				"goal": 9
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "tdkungpaochicken",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "firedragon",
+				"at": 0,
+				"goal": 7
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "easterdarumi",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "electricsnake",
+				"at": 0,
+				"goal": 5
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "firedragon",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "roccroc",
+				"at": 0,
+				"goal": 8
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "tddiamondtoad",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "410raidrwdrare",
+				"at": 0,
+				"goal": 7
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "windbumbee",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "firedog",
+				"at": 0,
+				"goal": 5
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "tde3blueyoshi",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "logdog",
+				"at": 0,
+				"goal": 6
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "e7machao",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "ironsaurus",
+				"at": 0,
+				"goal": 3
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "earthcrystal",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "windptero",
+				"at": 0,
+				"goal": 3
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "windcrystal",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "stegotree",
+				"at": 0,
+				"goal": 4
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "grasscrystal",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "infernospino",
+				"at": 0,
+				"goal": 4
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "firecrystal",
+				"amount": 1,
+				"complete": true
+			}
+		}, {
+			"items": [{
+				"type": "monster",
+				"id": "ultracrystal",
+				"at": 0,
+				"goal": 3
+			}],
+			"reward": {
+				"type": "monster",
+				"id": "epiccrystal",
+				"amount": 1,
+				"complete": true
+			}
+		}]
+	}],
+	"class": "monsterRefillEnergyResponse",
+	"status_code": 0
+}
